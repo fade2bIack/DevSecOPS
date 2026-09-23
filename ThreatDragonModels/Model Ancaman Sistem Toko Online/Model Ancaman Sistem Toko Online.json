@@ -51,8 +51,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5dcbe03b-ca37-4a07-8c77-3b671f469796",
             "zIndex": -1,
+            "id": "5dcbe03b-ca37-4a07-8c77-3b671f469796",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internet",
@@ -83,8 +83,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5a2ca87e-118f-4bdd-ad51-b8510b508d3d",
             "zIndex": -1,
+            "id": "5a2ca87e-118f-4bdd-ad51-b8510b508d3d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internal",
@@ -118,8 +118,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "35c96cea-b2c9-4770-8a3c-d9e06ef849a1",
             "zIndex": -1,
+            "id": "35c96cea-b2c9-4770-8a3c-d9e06ef849a1",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "DMZ",
@@ -163,6 +163,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -246,7 +247,6 @@
               ]
             },
             "id": "51376265-5315-48dc-b632-3be92d0e9dbc",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User Browser",
@@ -280,6 +280,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -363,7 +364,6 @@
               ]
             },
             "id": "1f4e1898-800d-47f6-96f2-af250748d8b1",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Payment API (3rd Party)",
@@ -397,6 +397,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -480,7 +481,6 @@
               ]
             },
             "id": "cb6412b6-1ad3-41f7-ba60-d568991686ec",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "API \nGateway",
@@ -539,6 +539,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -622,7 +623,6 @@
               ]
             },
             "id": "d98003c8-9c5e-4639-82ae-e9684443740f",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Payment\n Gateway",
@@ -686,6 +686,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -769,7 +770,6 @@
               ]
             },
             "id": "ccde4c4a-b0d5-4fe8-9be7-ee337ac6be45",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "PostgreSQL DB",
@@ -832,6 +832,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -915,7 +916,6 @@
               ]
             },
             "id": "dfe7dad9-bea2-4915-83a4-4779aa651041",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Session Store",
@@ -1320,6 +1320,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1403,7 +1404,6 @@
               ]
             },
             "id": "cf453473-8d20-4e3e-b432-63da103fbc4e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Order\nService",
@@ -1462,6 +1462,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1545,7 +1546,6 @@
               ]
             },
             "id": "865c56d5-fcb1-4d06-bd4f-3f7a171cdc9c",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Auth \nService",
