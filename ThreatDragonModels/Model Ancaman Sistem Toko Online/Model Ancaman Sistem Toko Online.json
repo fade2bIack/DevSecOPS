@@ -104,7 +104,7 @@
           },
           {
             "position": {
-              "x": -65.00000000000011,
+              "x": -50,
               "y": -440
             },
             "size": {
@@ -130,23 +130,16 @@
                 "bd8025ee-471a-48a9-8377-f3e4d6258ab6",
                 "420ffe2e-b9c6-47de-b2a4-3e787df76520",
                 "ca59ebaf-8f45-40f0-91ea-928e3084ff62",
-                "35461d55-7080-45de-986f-802380279d16"
+                "35461d55-7080-45de-986f-802380279d16",
+                "d5523bf2-2717-49e5-a725-3784e77aa76a",
+                "9fe2aee0-95ed-41c1-b935-0d81bfe56070"
               ],
               "containedElements": [
-                "fa11a28a-6a7f-4cad-9ecf-d5960718cfd2",
                 "cb6412b6-1ad3-41f7-ba60-d568991686ec",
                 "d98003c8-9c5e-4639-82ae-e9684443740f",
-                "cf453473-8d20-4e3e-b432-63da103fbc4e"
+                "cf453473-8d20-4e3e-b432-63da103fbc4e",
+                "865c56d5-fcb1-4d06-bd4f-3f7a171cdc9c"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -385,149 +378,7 @@
           },
           {
             "position": {
-              "x": 144.9999999999999,
-              "y": -415
-            },
-            "size": {
-              "width": 80,
-              "height": 80
-            },
-            "attrs": {
-              "text": {
-                "text": "Auth \nService"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "503bf135-db23-4265-9bc8-4f32a4934fec"
-                },
-                {
-                  "group": "right",
-                  "id": "d142974c-c1b6-4d77-94ca-e77b8f179751"
-                },
-                {
-                  "group": "bottom",
-                  "id": "5aaf3574-b9d1-40a1-b86b-7c9ba8fdf00b"
-                },
-                {
-                  "group": "left",
-                  "id": "20307fea-8efc-4bdb-8753-13ca731a56bc"
-                }
-              ]
-            },
-            "id": "fa11a28a-6a7f-4cad-9ecf-d5960718cfd2",
-            "zIndex": 3,
-            "data": {
-              "type": "tm.Process",
-              "name": "Auth \nService",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "6bbf10e3-11af-4c32-8723-448a1449c5d8",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 1,
-                "tampering": 0,
-                "repudiation": 0,
-                "informationDisclosure": 0,
-                "denialOfService": 0,
-                "elevationOfPrivilege": 0
-              }
-            }
-          },
-          {
-            "position": {
-              "x": 10,
+              "x": 20,
               "y": -270
             },
             "size": {
@@ -1121,52 +972,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "e5054b3c-f2ee-4084-945b-c55be96fa1e6",
-            "source": {
-              "cell": "cb6412b6-1ad3-41f7-ba60-d568991686ec",
-              "port": "d142974c-c1b6-4d77-94ca-e77b8f179751"
-            },
-            "target": {
-              "cell": "fa11a28a-6a7f-4cad-9ecf-d5960718cfd2",
-              "port": "5aaf3574-b9d1-40a1-b86b-7c9ba8fdf00b"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "HTTPS Login",
               "description": "",
               "outOfScope": false,
@@ -1477,7 +1282,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "5a2ca87e-118f-4bdd-ad51-b8510b508d3d"
+                "5a2ca87e-118f-4bdd-ad51-b8510b508d3d",
+                "35c96cea-b2c9-4770-8a3c-d9e06ef849a1"
               ]
             },
             "labels": [
@@ -1485,8 +1291,8 @@
             ],
             "id": "d5523bf2-2717-49e5-a725-3784e77aa76a",
             "source": {
-              "x": 225,
-              "y": -375
+              "cell": "865c56d5-fcb1-4d06-bd4f-3f7a171cdc9c",
+              "port": "d142974c-c1b6-4d77-94ca-e77b8f179751"
             },
             "target": {
               "cell": "dfe7dad9-bea2-4915-83a4-4779aa651041",
@@ -1634,12 +1440,202 @@
                 "elevationOfPrivilege": 0
               }
             }
+          },
+          {
+            "position": {
+              "x": 110,
+              "y": -425
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Auth \nService"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "503bf135-db23-4265-9bc8-4f32a4934fec"
+                },
+                {
+                  "group": "right",
+                  "id": "d142974c-c1b6-4d77-94ca-e77b8f179751"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5aaf3574-b9d1-40a1-b86b-7c9ba8fdf00b"
+                },
+                {
+                  "group": "left",
+                  "id": "20307fea-8efc-4bdb-8753-13ca731a56bc"
+                }
+              ]
+            },
+            "id": "865c56d5-fcb1-4d06-bd4f-3f7a171cdc9c",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Process",
+              "name": "Auth \nService",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "8c012940-5cfc-404e-baaa-29296c75e70d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 13,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "35c96cea-b2c9-4770-8a3c-d9e06ef849a1"
+              ]
+            },
+            "labels": [
+              "Auth Request"
+            ],
+            "id": "9fe2aee0-95ed-41c1-b935-0d81bfe56070",
+            "source": {
+              "x": 80,
+              "y": -270
+            },
+            "target": {
+              "cell": "865c56d5-fcb1-4d06-bd4f-3f7a171cdc9c",
+              "port": "5aaf3574-b9d1-40a1-b86b-7c9ba8fdf00b"
+            }
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 9
+    "threatTop": 10
   }
 }
