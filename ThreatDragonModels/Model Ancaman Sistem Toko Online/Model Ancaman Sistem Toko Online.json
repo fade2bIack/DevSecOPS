@@ -1,0 +1,44 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-09-23",
+  "summary": {
+    "title": "Model Ancaman Sistem Toko Online",
+    "owner": "Danish Aulia Irawan",
+    "description": "Sistem ini merupakan aplikasi manajemen toko online yang memfasilitasi Customer untuk melakukan pendaftaran, login, pemesanan, dan pembayaran, serta memungkinkan Admin untuk mengelola produk. Secara arsitektur, sistem menggunakan antarmuka Frontend yang berkomunikasi melalui API Gateway menuju berbagai layanan backend seperti Auth Service dan Order Service. Sistem juga terintegrasi dengan layanan pihak ketiga yaitu Payment Gateway untuk transaksi. Seluruh data pengguna dan pesanan disimpan di dalam Database terpusat, dengan menerapkan batas keamanan (Trust Boundary) yang memisahkan zona Internet, DMZ, dan Internal Network.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Ihsan Rabbani"
+      },
+      {
+        "name": "Rafi Nur Tsaqif Akhmad"
+      },
+      {
+        "name": "Affan Abdussalam"
+      },
+      {
+        "name": "Syech Abu"
+      },
+      {
+        "name": "Kaysan Ahmad Nawfal"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
